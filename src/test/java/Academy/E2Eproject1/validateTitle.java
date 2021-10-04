@@ -29,6 +29,7 @@ public void initialize() throws IOException {
 		 
 		LandingPage  L=new LandingPage(driver);
 		
+		System.out.println(L.getTitle().getText());
 		Assert.assertEquals(L.getTitle().getText(),"FEATURED COURSES");
 		
 		System.out.println(L.getTitle().getText());
