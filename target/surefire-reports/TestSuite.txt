@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 98.741 s <<< FAILURE! - in TestSuite
+Academy.E2Eproject1.HomePage.basePageNavigation[rahul , 1234 ](1)  Time elapsed: 2.211 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (992, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=94.0.4606.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D57A3PS', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\laxmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fe0d43163b1a3359ede53b5d1312ebf
+	at Academy.E2Eproject1.HomePage.basePageNavigation(HomePage.java:33)
+
+Academy.E2Eproject1.HomePage.basePageNavigation[rahul1 , 12345 ](2)  Time elapsed: 1.124 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (992, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=94.0.4606.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D57A3PS', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\laxmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fe0d43163b1a3359ede53b5d1312ebf
+	at Academy.E2Eproject1.HomePage.basePageNavigation(HomePage.java:33)
+

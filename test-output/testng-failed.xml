@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Academy.E2Eproject1.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="validating title in page(failed)">
+    <classes>
+      <class name="Academy.E2Eproject1.validateTitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- Academy.E2Eproject1.validateTitle -->
+      <class name="Academy.E2Eproject1.HomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.E2Eproject1.HomePage -->
+    </classes>
+  </test> <!-- validating title in page(failed) -->
+  <test parallel="tests" name="Validating Uselogin (failed)">
+    <classes>
+      <class name="Academy.E2Eproject1.validateTitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.E2Eproject1.validateTitle -->
+      <class name="Academy.E2Eproject1.HomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.E2Eproject1.HomePage -->
+    </classes>
+  </test> <!-- Validating Uselogin (failed) -->
+</suite> <!-- Failed suite [Suite] -->
