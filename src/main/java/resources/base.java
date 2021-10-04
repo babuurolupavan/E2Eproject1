@@ -38,7 +38,7 @@ public class base {
 			
 		}
 		
-		
+		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 		
 		return driver;
 		
@@ -55,4 +55,6 @@ public class base {
 		FileUtils.copyFile(source,new File(destinationFile));
 		
 	}
+	
+	
 }
